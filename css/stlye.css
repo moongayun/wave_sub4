@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select * {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+
+    list-style: none;
+    color: #333;
+    min-width: 1320px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+.header_wrap {
+    background-color: #2125AF;
+    height: 92px;
+    margin: 0px auto;
+
+}
+
+.logo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header_wrap2 {
+    background-color: #0E004A;
+    height: 45px;
+
+}
+
+.gnb {
+    padding-right: 300px;
+    float: right;
+}
+
+.gnb li {
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 25px;
+
+}
+
+.ansdml {
+    background-color: #2A6CEF;
+    min-width: 1320px;
+    margin: 0 auto;
+}
+
+.ans_two {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+
+
+}
+
+.ans_three {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: bold;
+
+
+}
+
+.four {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: bold;
+
+
+}
+
+.ans {
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 114px;
+
+
+}
+
+.group {
+    position: relative;
+    height: 2135px;
+    overflow: hidden;
+
+}
+
+.group img {
+    position: absolute;
+    margin-left: -1022px;
+    left: 50%;
+    top: 0;
+
+
+}
+
+.bubbleone {
+    text-align: right;
+}
+
+.bubbletwo {
+    text-align: left;
+}
+
+.fish {
+    text-align: right;
+
+}
+
+.heama {
+    text-align: left;
+    padding-right: 73%;
+    padding-bottom: 19px;
+}
+
+.sanhocho {
+    text-align: right;
+    padding-left: 73%;
+    padding-top: 19px;
+
+}
+
+#footer_wrap {
+    background-color: #000;
+
+}
+
+.footer {
+    margin: 0px auto;
+    width: 1100px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    background: url(../images/logo/logo.png)no-repeat right 10px top 26px;
+    background-size: 17%;
+
+}
+
+.footer_gnd li {
+    margin-bottom: 10px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    float: left;
+    padding: 15px 30px 56px 0;
+
+}
+
+.footer_logo_two {
+    position: absolute;
+    right: 1px;
+    top: 150px;
+
+
+}
+
+.footer_logo_two li {
+    float: left;
+    padding: 6px;
+}
+
+.footer_add {
+    clear: both;
+    font-size: 14px;
+
+}
+
+.you {
+    margin-top: 3px;
+}
